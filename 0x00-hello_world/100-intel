@@ -1,2 +1,7 @@
 #!/bin/bash
-gcc -S $CFILE
+
+# Get the base name of the C file without the extension
+FILENAME=$(basename "$CFILE" .c)
+
+# Generate assembly code using GCC
+gcc -S -masm=intel "$CFILE" -o "$FILENAME.s"
