@@ -9,12 +9,12 @@
 int main(void)
 {
 int number  = 0;
+char alphabet = 'a';
 while (number <= 9)
 {
 putchar('0' + number);
 number++;
 }
-char alphabet = 'a';
 while (alphabet <= 'f')
 {
 putchar(alphabet);
