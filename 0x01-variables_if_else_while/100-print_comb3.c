@@ -12,7 +12,7 @@ int i = 0;
 int j;
 while (i <= 10)
 {
-j=i+1;
+j = i + 1;
 while (j < 10)
 {
 putchar('0' + i);
