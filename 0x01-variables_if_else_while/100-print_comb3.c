@@ -8,9 +8,12 @@
  */
 int main(void)
 {
-for (int i = 0; i <= 10; i++)
+int i = 0;
+int j;
+while (i <= 10)
 {
-for (int j=i+1; j < 10; j++)
+j=i+1;
+while (j < 10)
 {
 putchar('0' + i);
 putchar('0' + j);
@@ -19,7 +22,9 @@ if (i != 8)
 putchar(',');
 putchar(' ');
 }
+j++;
 }
+i++;
 }
 putchar('\n');
 return (0);
