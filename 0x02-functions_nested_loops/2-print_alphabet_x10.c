@@ -2,9 +2,9 @@
 /**
  * print_alphabet_x10 - Print all letters of English Alphabet ten times.
  */
-void print_alphabet_x10(void) 
+void print_alphabet_x10(void)
 {
-int i=0;
+int i = 0;
 while(i < 10)
 {
 char ch = 'a';
