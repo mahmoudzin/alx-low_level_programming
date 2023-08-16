@@ -6,6 +6,6 @@
  * Return: Always 0(Success)
  */
 int main () {
-printf("_putchar");
+printf("_putchar\n");
 return (0);
 }
