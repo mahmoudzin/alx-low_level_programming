@@ -1,4 +1,4 @@
-#ifndef main.h
-#define main.h
-
+#ifndef MAIN
+#define MAIN
+#define MYCONSTANT 42
 #endif
