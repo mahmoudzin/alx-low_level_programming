@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #ifndef MAIN
 #define MAIN
 void print_alphabet(void);
