@@ -1,12 +1,14 @@
 #include "main.h"
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_alphabet - Print all letters of English Alphabet.
  */
-int main(void)
+void print_alphabet(void) 
 {
-print_alphabet();
-return (0);
+char ch = 'a';
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
+}
+putchar('\n');
 }
