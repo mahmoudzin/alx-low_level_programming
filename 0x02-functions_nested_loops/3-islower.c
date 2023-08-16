@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - Print all letters of English Alphabet.
+ * _islower - Check if Litter is Small ot upper.
  */
 int _islower(int c)
 {
