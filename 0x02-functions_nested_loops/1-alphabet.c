@@ -1,14 +1,11 @@
 #include "main.h"
 /**
- * print_alphabet - Print all letters of English Alphabet.
+ * _isupper - check .
  */
-void print_alphabet(void)
+int _isupper(int c)
 {
-char ch = 'a';
-while (ch <= 'z')
-{
-putchar(ch);
-ch++;
-}
-putchar('\n');
+   if (c >= 'A' && c <= 'Z')
+      return (1);
+   else
+      return (0);
 }
