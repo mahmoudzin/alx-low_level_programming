@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * _isupper - check .
+ * _isupper - check if litter is uppercase
+ * @c: int c to load the litter
+ * Return: int 1 if uppercase, 0 otherwies
  */
 int _isupper(int c)
 {
