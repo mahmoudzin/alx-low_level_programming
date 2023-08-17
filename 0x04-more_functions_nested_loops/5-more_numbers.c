@@ -12,16 +12,12 @@ while (j < 10)
 i = 0;
 while (i <= 14)
 {
-if (i < 10)
-_putchar('0' + i);
-else {
+if (i >= 10)
 _putchar('1');
 _putchar('0' + (i % 10));
-}
 i++;
 }
 _putchar('\n');
 j++; 
 }
-_putchar('\n');
 }
