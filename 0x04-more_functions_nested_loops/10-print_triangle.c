@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_triangle - Print Triangle
- * @size: int size 
+ * @size: int size
  * Return: void
  */
 void print_triangle(int size)
 {
 int i, j;
-if(size <= 0)
+if (size <= 0)
 _putchar('\n');
 else
 {
