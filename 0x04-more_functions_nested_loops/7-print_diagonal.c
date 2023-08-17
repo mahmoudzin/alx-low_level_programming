@@ -13,14 +13,10 @@ else
 {
 for (i = 0; i < n; i++)
 {
-j = i;
-while (j)
-{
+for (j = 0; j <= i; j++)
 _putchar(' ');
-j--;
-}
 _putchar('/');
 _putchar('\n');
-}
+}      
 }
 }
