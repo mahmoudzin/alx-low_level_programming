@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - check if litter is uppercase
+ * _strncat - check if litter is uppercase
  * @dest: first string
  * @src: second string
  * @n: the number
