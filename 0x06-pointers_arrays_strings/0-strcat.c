@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * _strcat - contact two strings with each other
- * @*dest: the first string
- * @*src: the Second string
+ * @dest: the first string
+ * @src: the Second string
  * Return: pointer that point at the whole string
  */
-char *_strcat(char *dest, char *src) 
+char *_strcat(char *dest, char *src)
 {
 int c, c2;
 c = 0;
