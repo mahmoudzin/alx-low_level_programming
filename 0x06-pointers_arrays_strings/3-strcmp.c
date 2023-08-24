@@ -7,23 +7,16 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-int s1_sizeofascci = 0;
-int s2_sizeofascci = 0;
-int i = 0;
-while (s1[i] && s1[i] != '\0')
+int equal = 0;
+while (*s1)
 {
-s1_sizeofascci += s1[i];
-i++;
-}
-i = 0;
-while (s2[i] && s2[i] != '\0')
+if (*s1 != *s2)
 {
-s2_sizeofascci += s2[i];
-i++;
+equal = ((int) *s1 - 48)  - ((int) *s2 - 48);
+break;
 }
-if (s1_sizeofascci > s2_sizeofascci)
-return (1);
-else if (s1_sizeofascci < s2_sizeofascci)
-return (-1);
-return (0);
+s1++;
+s2++;
+}
+return (equal);
 }
