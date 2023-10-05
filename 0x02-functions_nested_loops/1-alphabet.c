@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- * _isupper - check .
+ * print_alphabet - check.
  */
-int _isupper(int c)
+void print_alphabet(void)
 {
-if (c >= 'A' && c <= 'Z')
-return (1);
-else
-return (0);
+int i = 0;
+char ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
+}
+_putchar('\n');
+i++;
 }
